@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+h1{
+    color:  #23cf;
+}
+
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    width: 500px;
+    height: 600px;
+    background-color: #28cfff;
+    padding: 50px;
+    border: solid 5px #000;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}

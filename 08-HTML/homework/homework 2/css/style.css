@@ -1,0 +1,119 @@
+:root {
+    --border-bottom-tittle: solid 20px rgb(232, 255, 29);
+    --border-bottom: solid 10px rgb(232, 255, 29);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.Cv-All {
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.10);
+    background-color: #fcfcfc;
+}
+
+.Cv-Head {
+    display: flex;
+    background-color: #111;
+    height: 200px;
+}
+
+.Cv-Head img {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+}
+
+.Cv-Head h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 8px;
+    line-height: 300px;
+    width: 550px;
+    color: #fff;
+}
+
+.Cv-Body {
+    display: flex;
+    justify-content: space-between;
+}
+.Cv-Body > .Cv-Body-content-right{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.Cv-Body-content-right {
+    width: 60%;
+    height: 110%;
+    padding: 50px;
+}
+
+.Cv-Body-content-right h2 {
+    display: block;
+    border-bottom: var(--border-bottom);
+}
+
+.Cv-Body-content-right p {
+    padding: 20px;
+}
+.Cv-Body-content-part{
+    box-shadow: 10px 20px 10px rgba(139, 139, 139, 0.1);
+}
+.Cv-Body-left-part {
+    padding: 20px;
+    width: 40%;
+    background-color: rgb(27, 27, 27);
+    height: 1000px; 
+    color: #fff;
+}
+.Cv-Body-left-part-content{
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.10);
+    margin-top: 60px;
+}
+.Cv-Body-left-part h2,
+p {
+    padding: 20px;
+}
+.Cv-Body-left-part h3{
+    display: block;
+}
+.Cv-Body-left-part ul {
+    padding: 20px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.8);
+    margin: 0px auto;
+    width: 80%;
+
+}
+.--space{
+    margin-top: 60px;
+}
+
+ progress {
+    width: 100px;
+    margin-left: 30px;
+    height: 6px;
+}
+ /* For Firefox */
+
